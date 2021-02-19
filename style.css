@@ -1,0 +1,72 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #2f3035;
+  background-image: url(imgs/binary-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1024px;
+}
+
+/* potentially not needed */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1024px;
+}
+
+header {
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-style: italic;
+  /* background-color: rgba(0, 0, 0, 0.4);
+  margin-right: auto;
+  margin-left: auto;
+  width: 400px; */
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: auto;
+  padding-left: auto;
+  margin-top: 400px;
+}
+
+a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  padding-right: 40px;
+  padding-left: 40px;
+}
